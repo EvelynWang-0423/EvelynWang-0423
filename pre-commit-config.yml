@@ -1,0 +1,9 @@
+repos:
+  -repo: https://gitee.com/irving512/flake8
+  rev: 3.8.3
+  hooks:
+    -id: flake8
+-repo: https://gitee.com/irving512/mirrors-yapf
+  rev: v0.30.0
+  hooks:
+    -id: yapf
